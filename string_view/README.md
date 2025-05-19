@@ -1,24 +1,5 @@
 # string_view
 
-Imagine, for a moment, you've decided to sketch the Millennium Falcon. You don't own one so what do
-you do? You could travel to Corellia and buy your very own Falcon. Owning the Falcon has its perks.
-You control it, you can upgrade it with the latest hyperdrive and you can fly it whenever you want.
-
-However, ownership comes at a price with responsibilities. You maintain the ship including the crew
-(Chewie isn't cheap) and you have to refuel it all the time. You also have to repair it after every
-imperial entanglement and it needs a hanger which likely will have high docking fees.
-
-This is like a `std::string` in that you own the data, manage its lifetime and pay the cost of 
-copying or modifying it. However, you could just fly to Chalmun's Cantina at the Mos Eisley
-Spaceport on Tatooine where Han Solo parks the Millennium Falcon. You can then view it for free!
-
-You don't have to pay for anything, no maintaining a ship of your own or risk bounty hunters 
-chasing you. You don't control it though. Han might fly it away. You can't modify it and you can
-only see what is visible from your seat.
-
-This is like `std::string_view` a view type we call it. You have a lightweight cheap view of
-existing data, but no ownership or control. If Han takes off, your "view" is gone.
-
 ## Key Characteristics
 
 - Non-Owning: Does not manage or own the data it references
